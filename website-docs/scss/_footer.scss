@@ -1,0 +1,172 @@
+/*============== footer_area css ==============*/
+.footer_area{
+    background: #1b232c;
+}
+.footer_top{
+    padding: 120px 0px 40px;
+}
+.f_widget{
+    margin-bottom: 30px;
+    p{
+        color: #ddd;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .f_logo{
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+    .f_title{
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-top: 14px;
+    }
+    &.info_widget{
+        padding-right: 130px;
+        .info_list{
+            .info_item{
+                position: relative;
+                i{
+                    font-size: 18px;
+                    color: $yellow;
+                    position: absolute;
+                    left: 0;
+                    top: 3px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 24px;
+                    color: #dddddd;
+                    padding-left: 26px;
+                    margin-bottom: 12px;
+                    a{
+                        color: #ddd;
+                        transition: all 0.2s linear;
+                        &:hover{
+                            color: $yellow;
+                        }
+                    }
+                }
+            }
+        }
+        .social_icon{
+            padding-top: 8px;
+            a{
+                font-size: 14px;
+                color: #ddd;
+                margin-right: 12px;
+                &:hover{
+                    color: $yellow;
+                }
+            }
+        }
+    }
+    &.link_widget{
+        ul{
+            li{
+                margin-bottom: 10px;
+                a{
+                    font-size: 15px;
+                    color: #ddd;
+                    font-family: $ro;
+                    &:before{
+                        content: "\f105";
+                        font-family: 'Font Awesome 5 Free';
+                        font-weight: 900;
+                        margin-right: 6px;
+                        font-size: 12px;
+                    }
+                    &:hover{
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+    }
+    &.subscribe_widget{
+        p{
+            margin-bottom: 30px;
+        }
+    }
+    .f_subscribe{
+        position: relative;
+        .form-control{
+            border-radius: 0px;
+            background: #2f3842;
+            font-size: 15px;
+            color: #787c7d;
+            height: 50px;
+            padding-left: 20px;
+            border: 1px solid #414a54;
+            box-shadow: none;
+            @include placeholder{
+                color: #787c7d;
+            }
+        }
+        .btn-submit{
+            position: absolute;
+            top: 0;
+            right: 0;
+            border: 0px;
+            z-index: 0;
+            font-size: 20px;
+            line-height: 50px;
+            color: $title;
+            background: $yellow;
+            border-radius: 0px;
+            padding: 0px 25px;
+            height: 100%;
+        }
+    }
+}
+.footer_bottom{
+    border-top: 1px solid #3c4856;
+    text-align: center;
+    font-size: 16px;
+    color: #898989;
+    font-family: $ro;
+    line-height: 22px;
+    padding: 39px 0px;
+    a{
+        color: $yellow;
+    }
+}
+/*============== footer_area css ==============*/
+
+.footer_area_two{
+    background: #f9f9f9;
+    .f_widget{
+        p,a{
+           color: #485c6b; 
+        }
+        .f_title{
+            color: $title;
+        }
+        &.info_widget{
+            .info_list{
+                .info_item{
+                    p,a{
+                       color: #485c6b; 
+                    }
+                }
+            }
+        }
+        &.link_widget ul li a,.social_icon a{
+            color: #485c6b;
+            transition: all 0.2s linear;
+            &:hover{
+                color: $yellow;
+            }
+        }
+        .f_subscribe .form-control{
+            background: #ebebeb;
+            border-color: #ebebeb;
+        }
+    } 
+    .footer_bottom{
+        border-color: #d6dadd;
+        color: #485c6b;
+    }
+}

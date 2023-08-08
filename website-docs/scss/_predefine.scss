@@ -1,0 +1,98 @@
+.m0{
+    margin: 0px;
+}
+a{
+    text-decoration:none;
+    &:hover, &:focus{
+       text-decoration:none;
+    }
+}
+
+i{
+    &:before{
+        margin-left: 0px !important;
+    }
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $bar;
+    color: $title;
+}
+body{
+    font: 400 16px/28px $ro;
+    letter-spacing: 0px;
+    padding: 0px;
+    color: $pfont;
+    z-index: 0;
+}
+.body_wrapper{
+    overflow: hidden;
+}
+
+a,.btn,button{
+    text-decoration: none;
+    outline: none;
+    &:hover,&:focus{
+        text-decoration: none;
+        outline: none;
+    }
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.container{
+    @media (min-width:1250px){
+        max-width: 1200px;
+    }
+    &.custom_container{
+        @media (min-width:1250px){
+            max-width: 1520px;
+        }
+    }
+}
+
+.sec_gap{
+    padding: 120px 0px;
+}
+
+.con_title_top{
+    font-size: 20px;
+    font-weight: 600;
+    color: $yellow;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+}
+.con_title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    &.c_w{
+        color: #fff;
+    }
+}
+.con_p{
+    margin-bottom: 0;
+}
+.line_bottom{
+    width: 60px;
+    height: 4px;
+    background: $yellow;
+    display: block;
+    margin-bottom: 26px;
+}
+.section_title{
+    margin-bottom: 70px;
+    &.text-center{
+        .line_bottom{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.bg_color{
+    background: #f9f9f9;
+}

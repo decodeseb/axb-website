@@ -1,0 +1,133 @@
+/*============ con_contact_area css =========*/
+.con_contact_area{
+    .map_info{
+        padding-left: 0px;
+        .mapBox2{
+            height: 100%;
+        }
+    }
+}
+.contact_info{
+    max-width: 585px;
+    margin-left: 0px;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-top: 95px;
+    padding-bottom: 100px;
+    .section_title{
+        margin-bottom: 50px;
+    }
+    .get_quote_form{
+        .form-group{
+            margin-bottom: 30px;
+            .form-control{
+                border-width: 1px;
+                padding-left: 15px;
+                color: #666;
+            }
+            textarea{
+                &.form-control{
+                    height: 150px;
+                    padding-top: 20px;
+                }
+            }
+            .con_btn{
+                padding: 12px 39px;
+                margin-bottom: 0;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    } 
+}
+/*============ con_contact_area css =========*/
+
+/*============= contact area css =============*/
+.contact_info_two{
+    background: #f7f7f7;
+    padding: 70px 50px;
+    h3{
+        font-weight: 600;
+        font-size: 24px;
+        color: $title;
+        margin-bottom: 20px;
+    }
+    .social_icon{
+        a{
+            color: #5e7281;
+            font-size: 18px;
+            margin-right: 15px;
+            transition: all 0.2s linear;
+            &:hover{
+                color: $yellow;
+            }
+        }
+    }
+}
+.contact_info_item{
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 70px;
+    i{
+        font-size: 45px;
+        color: $yellow;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    p{
+        font-size: 16px;
+        color: #5e7281;
+        margin-bottom: 0;
+        a{
+            color: #5e7281;
+            transition: color 0.2s linear;
+            &:hover{
+                color: $yellow;
+            }
+        }
+    }
+}
+.contact_form_info{
+    padding-left: 40px;
+    .section_title{
+        margin-bottom: 55px;
+    }
+}
+.contact_from{
+    .form-group{
+        margin-bottom: 30px;
+        .form-control{
+            border-width: 1px;
+            padding-left: 30px;
+        }
+        textarea{
+            &.form-control{
+                height: 250px;
+                padding-top: 20px;
+            }
+        }
+        .con_btn {
+            padding: 12px 39px;
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+    } 
+}
+
+#success,#error{
+    display: none;
+}
+
+/*============= contact area css =============*/
+
+/*============= map_area css =============*/
+.map_area{
+    height: 500px;
+    .mapBox2{
+        height: 100%;
+    }
+}
+/*============= map_area css =============*/

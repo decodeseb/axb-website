@@ -1,0 +1,223 @@
+/*============ con_project_area css =============*/
+.con_project_area{
+    background: #1b232c;
+    .section_title{
+        margin-bottom: 0;
+    }
+}
+.project_title{
+    margin-bottom: 70px;
+}
+.con_project_info{
+    position: relative;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #1b232c;
+        right: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+    .slick-list {
+        padding-left: 0 !important;
+        overflow: visible;
+        margin-left: -15px;
+    }
+    .project_item{
+        background-color: rgb(45, 56, 67);
+        img{
+            max-width: 100%;
+        }
+        .text{
+            padding: 35px 40px;
+        }
+        h4{
+            font-size: 24px;
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 12px;
+            transition: all 0.2s linear;
+            &:hover{
+                color: $yellow;
+            }
+        }
+        p{
+            color: #a3b4c0;
+            margin-bottom: 0;
+        }
+    }
+}
+.custom_nav{
+    i{
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        font-size: 18px;
+        border: 2px solid $yellow;
+        display: inline-block;
+        color: $yellow;
+        line-height: 66px;
+        transition: all 0.3s linear;
+        cursor: pointer;
+        & + i{
+            margin-left: 20px;
+        }
+        &:hover{
+            background: $yellow;
+            color: $title;
+        }
+    }
+}
+/*============ con_project_area css =============*/
+
+/*============ con_latest_project_area css =============*/
+.con_latest_project_area{
+    margin-top: -80px;
+    padding: 200px 0px 120px;
+}
+.portfolio_filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    .work_portfolio_item{
+        font-size: 18px;
+        line-height: 20px;
+        color: $pfont;
+        font-family: $bar;
+        font-weight: 600;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.4s linear;
+        &:before{
+            content: "";
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            bottom: 0;
+            background: $yellow;
+            transform: scale(0);
+            transition: all 0.3s linear;
+        }
+        &.active,&:hover{
+            color: $yellow;
+            &:before{
+                transform: scale(1);
+            }
+        }
+        & + .work_portfolio_item{
+            margin-left: 45px;
+        }
+    }
+}
+.hover_effect{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    &:before{
+        width: 100%;
+        height: 100%;
+        content: '';
+        top: 0;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        background: #000;
+        opacity: 0.20;
+        -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        transform: scaleX(0);
+        transition: all 0.6s ease 0s;
+    }
+    &:after{
+        width: 100%;
+        height: 100%;
+        content: '';
+        top: 0;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        background: #000;
+        opacity: 0.20;
+        -webkit-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        transform: scaleY(0);
+        transition: all 0.6s ease 0s;
+    }
+}
+.portfolio_gallery{
+    padding-bottom: 30px;
+    .portfolio_item{
+        margin-bottom: 30px;
+        .portfolio_img{
+            overflow: hidden;
+            position: relative;
+            img{
+                width: 100%;
+            }
+            &:hover{
+                &:before{
+                    transform: scaleX(1);
+                }
+                &:after{
+                    transform: scaleY(1);
+                }
+                .hover_content{
+                    h5,h4{
+                        span{
+                            transform: translateY(0);
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hover_content{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 45px;
+        z-index: 2;
+        h5{
+            font-size: 20px;
+            font-weight: 600;
+            color: $yellow;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            overflow: hidden;
+            span{
+                display: inline-block;
+                transform: translateY(20px);
+                opacity: 0;
+                transition: all 0.5s linear;
+            }
+        }
+        h4{
+            font-size: 32px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 0;
+            overflow: hidden;
+            span{
+                transform: translateY(20px);
+                opacity: 0;
+                display: inline-block;
+                transition: all 0.3s linear;
+            }
+        }
+    }
+}
+
+
+.portfolio_gallery_two{
+    .portfolio_item{
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-bottom: 16px;
+    }
+}
+/*============ con_project_area css =============*/

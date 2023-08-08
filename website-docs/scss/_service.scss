@@ -1,0 +1,252 @@
+/*============= con_service_area css ============*/
+.con_service_area{
+    .row{
+        margin-top: -100px;
+    }
+}
+.con_service_item{
+    padding: 0px 30px;
+    margin-top: 100px;
+    .icon{
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+    h4{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 500;
+        color: #4c565e;
+        margin-bottom: 15px;
+        transition: color 0.2s linear;
+        &:hover{
+            color: $yellow;
+        }
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+
+.service_info_two{
+    margin-top: -30px;
+    .con_service_item{
+        border: 1px solid #f4f4f4;
+        padding: 70px 30px;
+        position: relative;
+        margin-top: 30px;
+        &:before{
+            content: "";
+            width: 100%;
+            height: 5px;
+            background: $yellow;
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            transform: scale(0);
+            transition: all 0.3s linear;
+        }
+        h4{
+            color: $title;
+            &:hover{
+                color: $yellow;
+            }
+        }
+        .icon{
+            position: relative;
+            display: inline-block;
+            width: 100px;
+            height: 85px;
+            vertical-align: middle;
+            line-height: 85px;
+        }
+        &:hover{
+            &:before{
+                transform: scale(1);
+            }
+        }
+    }
+}
+/*============= con_service_area css ============*/
+
+/*============ con_video_area =============*/
+.con_video_area{
+    text-align: center;
+    position: relative;
+    background: #000;
+    z-index: 1;
+    overflow: hidden;
+    padding: 115px 0px 180px;
+}
+.con_video_content{
+    h2{
+        margin-bottom: 0;
+        color: #fff;
+        font-size: 48px;
+        font-weight: 700;
+    }
+}
+.video_btn{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    margin: 0 auto 60px;
+    background: rgba(253, 185, 0, 0.1);
+    &:before{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 100%;
+        width: 100%;
+        margin-left: -65px;
+        margin-top: -65px;
+        border-radius: 999px;
+        z-index: -1;
+        background: rgba(253, 185, 0, 0.1);
+        -webkit-animation: thscale 3s ease-in-out 0s infinite both;
+        animation: thscale 3s ease-in-out 0s infinite both;
+    }
+    span{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: $yellow;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        line-height: 110px;
+        &:after{
+            content: "";
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 10px 0 10px 16px;
+            border-color: transparent transparent transparent #fff;
+        }
+    }
+}
+/*============ con_video_area =============*/
+
+/*============ con_skill_area css =============*/
+.con_skill_area{
+    margin-top: -80px;
+    z-index: 1;
+    position: relative;
+}
+.cons_skill_info{
+    display: flex;
+    align-items: center;
+    background: $yellow;
+    padding: 41px 0px;
+    .skill_item{
+        width: calc(100% / 5);
+        text-align: center;
+        span{
+            font-weight: 700;
+            color: #1b232c;
+            font-size: 38px;
+            line-height: 44px;
+            margin-bottom: 6px;
+            display: block;
+        }
+        p{
+            margin-bottom: 0;
+            font-size: 18px;
+        }
+    }
+}
+/*============ con_skill_area css =============*/
+
+/*============ con_clients_logo css =============*/
+.con_clients_logo{
+    .section_title{
+        margin-bottom: 0px;
+        .con_title{
+            margin-bottom: 0;
+        }
+    }
+}
+/*============ con_clients_logo css =============*/
+
+/*============ c_logo_item css =============*/
+.con_clients_logo_area{
+    padding-top: 120px;
+}
+.c_logo_item{
+    display: block;
+    opacity: 0.5;
+    transition: opacity 0.7s linear;
+    &:hover{
+        opacity: 1;
+    }
+}
+/*============ c_logo_item css =============*/
+
+/*============ con_clients_logo css =============*/
+.con_clients_logo{
+    padding: 103px 0px;
+}
+.con_logo_item{
+    width: calc(100% / 4);
+    text-align: center;
+    opacity: 0.7;
+    transition: opacity 0.3s linear;
+    &:hover{
+        opacity: 1;
+    }
+}
+/*============ con_clients_logo css =============*/
+
+/*============ con_call_action_area css =============*/
+.con_call_action_area{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #000;
+    padding: 139px 0px;
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+/*============ con_call_action_area css =============*/
+
+/*============ con_call_action_area css =============*/
+.con_service_area_three{
+    padding-top: 120px;
+}
+.con_service_item_three{
+    text-align: center;
+    padding: 50px 45px;
+    transition: all 0.4s linear;
+    cursor: pointer;
+    margin-bottom: 30px;
+    .line_bottom{
+        display: inline-block;
+        margin-top: 22px;
+        margin-bottom: 18px;
+    }
+    h4{
+        font-size: 20px;
+        color: $title;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    p{
+        margin-bottom: 0;
+    }
+    &:hover{
+        box-shadow: 0px 30px 50px 0px rgba(31, 45, 48, 0.1);
+        
+    }
+}
+/*============ con_call_action_area css =============*/

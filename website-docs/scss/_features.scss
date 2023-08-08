@@ -1,0 +1,31 @@
+/*=========== con_features_area  ============*/
+.con_features_area{
+    padding: 120px 0px;
+    .row{
+        margin-top: -30px;
+        .con_features_item{
+            margin-top: 30px;
+        }
+    }
+}
+.con_features_item{
+    height: 100%;
+    padding-right: 25px;
+    margin-top: 50px;
+    .media_icon{
+        width: 75px;
+    }   
+    .media-body{
+        border-left: 2px solid #d9dadb;
+        padding-left: 20px;
+        h3{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        p{
+            margin-bottom: 0;
+            
+        }
+    }
+}
+/*=========== con_features_area  ============*/

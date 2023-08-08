@@ -1,0 +1,230 @@
+/*============ con_team_area css ==========*/
+.con_team_area{}
+.con_team_item{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+    img{
+        max-width: 100%;
+        transition: all 0.5s linear;
+    }
+    .overlay_bg{
+        position: absolute;
+        left: 0;
+        background-image: -moz-linear-gradient( 90deg, rgb(31,45,48) 0%, rgba(20,29,31,0.5) 36%, rgba(0,0,0,0) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(31,45,48) 0%, rgba(20,29,31,0.5) 36%, rgba(0,0,0,0) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(31,45,48) 0%, rgba(20,29,31,0.5) 36%, rgba(0,0,0,0) 100%);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        opacity: 0;
+        transition: all 0.3s linear;
+    }
+    .hover_content{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px;
+        overflow: hidden;
+        h5{
+            font-size: 26px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0;
+            transform: translateY(20px);
+            transition: all 0.7s linear;
+            opacity: 0;
+        }
+        h6{
+            font-size: 16px;
+            color: $yellow;
+            font-family: $ro;
+            font-weight: 400;
+            margin-bottom: 2px;
+            transform: translateY(35px);
+            transition: all 0.5s linear;
+            opacity: 0;
+        }
+    }
+    &:hover{
+        .overlay_bg{
+            opacity: 1;
+        }
+        img{
+            transform: scale(1.02);
+        }
+        .hover_content{
+            h5,h6{
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    }
+}
+/*============ con_team_area css ==========*/
+
+/*============ con_faq_area css ==========*/
+.con_faq_area{
+    .accordion{
+        .card{
+            border-radius: 0px;
+            border: 0px;
+            margin-bottom: 20px;
+            .card-header{
+                padding: 0px;
+                border: 0px;
+                border-radius: 0px;
+                background: transparent;
+                button{
+                   display: block;
+                    width: 100%;
+                    text-align: left;
+                    font-weight: 500;
+                    color: #1b232c;
+                    font-size: 24px;
+                    border-radius: 0px;
+                    padding: 13px 25px;
+                    background-color: rgb(255, 255, 255);
+                    box-shadow: 0px 30px 50px 0px rgba(31, 45, 48, 0.1);
+                    border: 2px solid transparent;
+                    i{
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        color: $title;
+                        background: $yellow;
+                        text-align: center;
+                        line-height: 40px;
+                        display: none;
+                        float: right;
+                        & + i{
+                            display: block;
+                        }
+                    }
+                    &.collapsed{
+                        background: transparent;
+                        box-shadow: none;
+                        border: 2px solid #f4f4f4;  
+                        i{
+                            background: transparent;
+                            display: block;
+                            & + i{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .card-body{
+            padding: 0px 25px 30px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 30px 50px 0px rgba(31, 45, 48, 0.1);
+        }
+    }
+}
+/*============ con_faq_area css ==========*/
+
+/*============ con_team_area_two css ==========*/
+.con_team_area_two{
+    
+}
+.con_team_item_two{
+    .team_img{
+        z-index: 0;
+        overflow: hidden;
+        img{
+            transition: all 0.3s linear;
+            position: relative;
+            z-index: -1;
+        }
+    }
+    .social_icon{
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        bottom: 55px;
+        z-index: 2;
+        overflow: hidden;
+        a{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            transform: translateY(100%);
+            cursor: pointer;
+            &:hover{
+                background: $yellow;
+                color: #3a464f;
+                border-color: $yellow;
+            }
+            &:nth-child(1){
+                transition: transform 0.4s linear, color 0.3s; 
+            }
+            &:nth-child(2){
+                transition: transform 0.6s linear, color 0.3s; 
+            }
+            &:nth-child(3){
+                transition: transform 0.8s linear, color 0.3s linear; 
+            }
+        }
+    }
+    .content{
+        text-align: center;
+        padding: 25px 0px;
+        h5{
+            font-weight: 700;
+            color: $title;
+            font-size: 24px;
+            margin-bottom: 7px;
+            transition: color 0.2s linear;
+            &:hover{
+                color: $yellow;
+            }
+        }
+        p{
+            font-family: $bar;
+            color: #5e7281;
+            font-weight: 500;
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+    }
+    &:hover{
+        .hover_effect{
+            img{
+                transform: scale(1.03);
+            }
+            &:before{
+                transform: scaleX(1);
+            }
+            &:after{
+                transform: scaleY(1);
+            }
+        }
+        .social_icon{
+            a{
+                transform: translateY(0);
+            }
+        }
+    }
+}
+/*============ con_team_area_two css ==========*/
+
+/*============ con_team_area_three css ==========*/
+.con_team_area_three{
+    .row{
+        margin-bottom: -50px;
+    }
+    .con_team_item_two{
+        margin-bottom: 20px;
+    }
+}
+/*============ con_team_area_three css ==========*/

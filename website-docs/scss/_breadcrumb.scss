@@ -1,0 +1,76 @@
+/*============ banner_area css =============*/
+.banner_area{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background: #000;
+    padding: 146px 0px 152px;
+    .overlay_bg{
+        background-position: center 50% !important;
+    }
+}
+
+.breadcrumb_content{
+    h2{
+        font-size: 58px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    ol{
+        display: flex;
+        margin-bottom: 0;
+        li{
+            font-size: 20px;
+            font-weight: 600;
+            font-family: $bar;
+            color: #fff;
+            text-transform: uppercase;
+            a{
+                color: $yellow;
+                display: inline-block;
+                &:after{
+                    content: "\e64a";
+                    font-family: 'themify';
+                    display: inline-block;
+                    font-size: 12px;
+                    line-height: 15px;
+                    vertical-align: middle;
+                    margin: -2px 10px 0px;
+                }
+            }
+        }
+    }
+}
+/*============ banner_area css =============*/
+
+/*============ banner_area_two css =============*/
+.banner_area_two{
+    .breadcrumb_content{
+        h6{
+            color: #fff;
+            font-size: 15px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            letter-spacing: 0.25px;
+        }
+        h2{
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+        .post_meta li{
+            color: #fff;
+            a{
+                color: #fff;
+            }
+        } 
+    } 
+}
+
+.team_banner_area{
+    .overlay_bg{
+        opacity: 1;
+    }
+}
+/*============ banner_area_two css =============*/
