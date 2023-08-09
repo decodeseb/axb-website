@@ -1586,13 +1586,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .con_testimonial_area {
   position: relative;
   overflow: hidden;
-  background: #f9f9f9;
+  background: #ffffff;
   padding: 130px 0px;
   z-index: 1;
-}
-
-.container_testimonials {
-  background-color: grey;
 }
 
 .con_testimonial_info {
