@@ -595,8 +595,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /* logo resizing and styling */
 
 .logo {
-  width: 11rem;
-  height: 5.5rem;
+  width: 8rem;
+  height: 4rem;
 }
 
 .header_three .navbar-brand {
@@ -3609,10 +3609,16 @@ input[type="text"] {
 /*====================================================*/
 /*============== footer_area css ==============*/
 .footer_area {
-  background: #1b232c;
+  background: #000000;
+}
+
+.footer-logo {
+  width:7rem;
+  height: 3rem;
 }
 
 .footer_top {
+  justify-content: space-between;
   padding: 120px 0px 40px;
 }
 
