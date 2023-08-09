@@ -2421,11 +2421,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .portfolio_gallery {
-  padding-bottom: 30px;
+  padding-bottom: 1.88rem;
 }
 
 .portfolio_gallery .portfolio_item {
-  margin-bottom: 30px;
+  margin-bottom: 1.88rem;
 }
 
 .portfolio_gallery .portfolio_item .portfolio_img {
@@ -2435,6 +2435,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .portfolio_gallery .portfolio_item .portfolio_img img {
   width: 100%;
+  
 }
 
 .portfolio_gallery .portfolio_item .portfolio_img:hover:before {
