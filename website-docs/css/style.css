@@ -2515,19 +2515,48 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 16px;
 }
 
-/* modal window */
+/*============================== modal window ==================*/
 .modal-window {
-  position: absolute;
+  position: fixed;
   top:50%;
   left: 50%;
   z-index: 1000; /* above all elements */
   transform: translate(-50%, -50%); /* centers window according to viewport */
   display:none;
+  background-color:rgb(133, 130, 130);
+  width: 35rem;
 }
 
-.modal-window-area {
-  max-width: 90%;
+#close-btn {
+  position: relative;
+  left: 50%;
+}
+
+#overlay {
+  position: fixed; /* follows the user anywhere they go */
+  opacity: 0; /* hides the overlay */
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  pointer-events: none; /* makes it so by default, we can click on the normal page when the overlay is not active  */
+}
+
+#overlay.active {
+  opacity: 1; /* shows the overlay */
+  pointer-events: all;
+  z-index: 100;
+}
+
+.modal-image-area {
+  width: 100%;
   height: auto;
+}
+
+.modal-image-area img {
+  width: 100%;
 }
 
 
@@ -3366,7 +3395,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 input[type="text"] {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   outline: none;
 }
 

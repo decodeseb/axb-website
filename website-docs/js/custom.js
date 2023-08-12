@@ -224,7 +224,27 @@
 		$('body').removeClass('open');
 		return false;
 	});
-    
+
+    /* ------------------ modal window popup -----------------*/
+
+    $(".small-image").click(function(){
+        const path = $(this).attr('src'); 
+        $(".large-image").attr('src', path)
+        $(".modal-window").fadeIn();
+        $("#overlay").attr('class', "active");
+        
+    })
+
+    $("#close-btn").click(function(){
+        $(".modal-window").slideUp();
+        $("#overlay").removeClass("active");
+    })
+
+    $("#overlay").click(function(){
+        $(".modal-window").slideUp();
+        $("#overlay").removeClass("active");
+    })
+
     /*--------- WOW js-----------*/
     function wowAnimation(){
         new WOW({
