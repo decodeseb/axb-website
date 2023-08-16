@@ -1385,11 +1385,17 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*=========== pricing section ============*/
 
 .con_service_area .pricing {
-  margin-top:10rem;
+  margin-top:5rem;
+  justify-content:center
+}
+
+#priceInput:hover{
+  cursor:grab;
 }
 
 form.price-slider {
-  margin-top: 5rem;
+  margin-top: 3rem;
+  padding-top:1rem;
   text-align: center;
   
 }
@@ -1402,8 +1408,14 @@ form.price-slider input {
 
 form.price-slider output {
   display: block;
-  margin: 25px auto;
-  font-size:2em;
+  margin: 2rem auto;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #DA1200;
+  text-transform: uppercase;
+  margin-bottom: 1.3rem;
+  font-family: "Barlow Condensed", sans-serif;
+  line-height: 38px;
 }
 
 datalist {
@@ -1420,6 +1432,71 @@ input[type="range"] {
   width: 200px;
   margin: 0;
 }
+
+/*============= Pricing styling ============*/
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  width: 100%;
+  outline: none;
+  
+  /*  styling the track  */
+  height:1rem;
+  background: #ccc;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+/* Track: webkit browsers */
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #ccc;
+  border-radius: 16px;
+}
+
+/* Track: Mozilla Firefox */
+input[type="range"]::-moz-range-track {
+  background: #ccc;
+  border-radius: 16px;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #000000;
+  
+  border: 2px solid #000000;
+
+  box-shadow: -407px 0 0 400px #DA1200;
+  transition: .2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #DA1200;
+
+  box-shadow: -407px 0 0 400px #DA1200;
+  transition: .2s ease-in-out;
+}
+
+#markers {
+  padding-top:0.5rem;
+}
+
+
+
+
 
 /*============= con_service_area css ============*/
 /*============ con_video_area =============*/
