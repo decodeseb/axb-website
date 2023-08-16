@@ -1382,6 +1382,45 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transform: scale(1);
 }
 
+/*=========== pricing section ============*/
+
+.con_service_area .pricing {
+  margin-top:10rem;
+}
+
+form.price-slider {
+  margin-top: 5rem;
+  text-align: center;
+  
+}
+
+form.price-slider input {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+form.price-slider output {
+  display: block;
+  margin: 25px auto;
+  font-size:2em;
+}
+
+datalist {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+option {
+  padding: 0;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin: 0;
+}
+
 /*============= con_service_area css ============*/
 /*============ con_video_area =============*/
 .con_video_area {
