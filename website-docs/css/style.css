@@ -1,19 +1,5 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Md. Shahadat Hussain
-@URL: https://themeforest.net/user/droitthemes
 
-This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
----------------------------------------------------- */
 /*=====================================================================
-@Template Name: 
-@Author: Md. Shahadat Hussain
-@Developed By: Rony
-@Developer URL: https://themeforest.net/user/droitthemes
-
-@Default Styles
 
 Table of Content:
 01/ variables
@@ -1231,8 +1217,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: absolute;
   top: 70px;
   left: 80px;
+  max-width:30rem;
 }
 
+.img_two.about img{
+  max-width:30rem;
+}
 .con_work_content .section_title {
   padding-right: 100px;
   margin-bottom: 0;
