@@ -2162,6 +2162,10 @@ input[type="range"]::-moz-range-thumb {
 
 /*============ con_team_area css ==========*/
 /*============ con_faq_area css ==========*/
+.faq-img img{
+  width:100%;
+}
+
 .con_faq_area .accordion .card {
   border-radius: 0px;
   border: 0px;
