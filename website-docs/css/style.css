@@ -169,6 +169,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   background: #f9f9f9;
 }
 
+.bg_color.faq {
+  background: white;
+}
+
 /*====================================================*/
 /*====================================================*/
 .con_btn {
