@@ -2589,11 +2589,12 @@ input[type="range"]::-moz-range-thumb {
 .portfolio_gallery .portfolio_item .portfolio_img {
   overflow: hidden;
   position: relative;
+  text-align: center;
 }
 
 .portfolio_gallery .portfolio_item .portfolio_img img {
-  width: 100%;
-  max-height:12rem;
+  width: 80%;
+  height:13.5rem;
 }
 
 .portfolio_gallery .portfolio_item .portfolio_img:hover:before {
