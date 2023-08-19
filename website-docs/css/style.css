@@ -1020,7 +1020,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .ribbon_info .con_btn {
-  background: #fff;
+  background: #000000;
 }
 
 /*============= ribbon_area ==============*/
@@ -1393,6 +1393,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-top:5rem;
   padding-top:2rem;
   justify-content:center;
+  width: 80%;
+  margin: auto;
 }
 
 #priceInput:hover{
@@ -1445,7 +1447,7 @@ input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   /* creating a custom design */
-  width: 100%;
+  /* width: 100%; */
   outline: none;
   
   /*  styling the track  */
@@ -1486,8 +1488,8 @@ input[type="range"]::-webkit-slider-thumb {
 
 /* Thumb: Firefox */
 input[type="range"]::-moz-range-thumb {
-  height: 1.2rem;
-  width: 1.2rem;
+  height: 1.5rem;
+  width: 1.5rem;
   background-color: #fff;
   border-radius: 50%;
   border: 1px solid #DA1200;
@@ -1501,7 +1503,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .truck {
-  width:35rem;
+  max-width:100%;
 }
 
 
