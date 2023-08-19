@@ -1383,6 +1383,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 /*=========== pricing section ============*/
+.select {
+  margin-top:2rem;
+  font-size:1rem;
+  text-transform: none;
+}
 
 .con_service_area .pricing {
   margin-top:5rem;
@@ -1395,7 +1400,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 form.price-slider {
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding-top:1rem;
   text-align: center;
   
@@ -2588,7 +2593,7 @@ input[type="range"]::-moz-range-thumb {
 
 .portfolio_gallery .portfolio_item .portfolio_img img {
   width: 100%;
-  
+  max-height:12rem;
 }
 
 .portfolio_gallery .portfolio_item .portfolio_img:hover:before {
