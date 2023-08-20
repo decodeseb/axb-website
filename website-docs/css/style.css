@@ -132,7 +132,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .con_p {
   margin-bottom: 0;
-}color
+}
 
 .line_bottom {
   width: 60px;
@@ -2237,7 +2237,7 @@ input[type="range"]::-moz-range-thumb {
 /*============ con_team_area_two css ==========*/
 .con_team_item_two {
   width:20rem;
-  margin: 0 2rem;
+  margin: auto;
 }
 
 .con_team_item_two .con_p{
