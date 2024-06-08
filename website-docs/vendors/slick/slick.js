@@ -210,7 +210,7 @@
             return false;
         }
 
-        _.unload();
+        _.onvisibilitychange();
 
         if (typeof(index) === 'number') {
             if (index === 0 && _.$slides.length === 0) {
@@ -998,7 +998,7 @@
 
             _.$slidesCache = _.$slides;
 
-            _.unload();
+            _.onvisibilitychange();
 
             _.$slideTrack.children(this.options.slide).detach();
 
@@ -1975,7 +1975,7 @@
             return false;
         }
 
-        _.unload();
+        _.onvisibilitychange();
 
         if (removeAll === true) {
             _.$slideTrack.children().remove();
@@ -2198,7 +2198,7 @@
 
         if ( refresh ) {
 
-            _.unload();
+            _.onvisibilitychange();
             _.reinit();
 
         }
@@ -2871,7 +2871,7 @@
 
         if (_.$slidesCache !== null) {
 
-            _.unload();
+            _.onvisibilitychange();
 
             _.$slideTrack.children(this.options.slide).detach();
 
@@ -2883,7 +2883,7 @@
 
     };
 
-    Slick.prototype.unload = function() {
+    Slick.prototype.onvisibilitychange = function() {
 
         var _ = this;
 
