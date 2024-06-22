@@ -130,6 +130,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #fff;
 }
 
+#con_p2 {
+  margin-top:1rem;
+}
+
 .con_p {
   margin-bottom: 0;
 }
