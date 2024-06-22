@@ -2532,6 +2532,10 @@ input[type="range"]::-moz-range-thumb {
   margin-left: 45px;
 }
 
+.small-image {
+  object-fit: cover;
+}
+
 .small-image:hover {
   cursor: pointer;
 }
