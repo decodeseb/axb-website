@@ -3,7 +3,5 @@ Disallow: /about.html
 Disallow: /portfolio.html
 Disallow: /pricing.html
 Disallow: /about.html
-Disallow: /css/
-Disallow: /js/
 Disallow: /scss/
 Disallow: /vendors/
