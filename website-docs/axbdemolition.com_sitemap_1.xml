@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://axbdemolition.com/service</loc>
+	</url>
+	<url>
+		<loc>https://axbdemolition.com/pricing</loc>
+	</url>
+	<url>
+		<loc>https://axbdemolition.com/portfolio</loc>
+	</url>
+	<url>
+		<loc>https://axbdemolition.com</loc>
+	</url>
+	<url>
+		<loc>https://axbdemolition.com/decodeseb.com</loc>
+	</url>
+	<url>
+		<loc>https://axbdemolition.com/contact</loc>
+	</url>
+	<url>
+		<loc>https://axbdemolition.com/about</loc>
+	</url>
+	<url>
+		<loc>https://axbdemolition.com/</loc>
+	</url>
+</urlset>
