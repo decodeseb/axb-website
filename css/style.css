@@ -826,7 +826,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .overlay_bg {
-  background-image: url("../img/home-1/slider12.jpg");
+  background-image: url("../img/home-1/2025-pics/banner.jpg");
   background-color: rgb(133, 130, 130);
   background-blend-mode: multiply;
 }
@@ -847,7 +847,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .main_slider .overlay_bg {
   background-size: cover !important;
-  background-position: top !important;
+  background-position: center !important;
 }
 
 .main_slider .slider_item {
