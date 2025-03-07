@@ -1530,9 +1530,18 @@ input[type="range"]::-moz-range-thumb {
 /*============= con_service_area css ============*/
 /*============ con_video_area =============*/
 .overlay_bg + .container{
-  padding-top:10rem;
+  padding-top:2rem;
 }
 
+iframe.vid {
+  height: 25rem;
+  width:44rem;
+}
+
+iframe + h2 {
+  padding-top: 2rem;
+  font-size:3rem;
+}
 
 .con_video_area {
   text-align: center;
@@ -1546,7 +1555,7 @@ input[type="range"]::-moz-range-thumb {
 .con_video_content h2 {
   margin-bottom: 0;
   color: #fff;
-  font-size: 48px;
+  /* font-size: 48px; */
   font-weight: 700;
 }
 

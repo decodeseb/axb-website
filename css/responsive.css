@@ -248,6 +248,11 @@
 }
 
 @media (max-width:767px){
+    iframe.vid {
+        height: 15rem;
+        width: 30rem;
+      }
+
     .header_top_two .header_contact_info a{
         padding-left: 0;
         padding-right: 5px;
@@ -344,6 +349,11 @@
 }
 
 @media (max-width:576px){
+    iframe.vid {
+        height: 15rem;
+        width: 25rem;
+      }
+
     .portfolio_gallery_two .portfolio_item {
         padding-left: 15px;
         padding-right: 15px;
@@ -476,6 +486,11 @@
 }
 
 @media (max-width:450px){
+    iframe.vid {
+        height: 12rem;
+        width: 18rem;
+      }
+
     .con_clients_logo_area .col-6,.con_service_area .col-6{
         width: 100%;
         max-width: 100%;
@@ -530,6 +545,11 @@
 }
 
 @media (max-width: 375px){
+    iframe.vid {
+        height: 10rem;
+        width: 17rem;
+      }
+
     .header_contact_info a {
         padding-right: 0px;
         padding-left: 0;
