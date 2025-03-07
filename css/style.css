@@ -1529,6 +1529,11 @@ input[type="range"]::-moz-range-thumb {
 
 /*============= con_service_area css ============*/
 /*============ con_video_area =============*/
+.overlay_bg + .container{
+  padding-top:10rem;
+}
+
+
 .con_video_area {
   text-align: center;
   position: relative;
