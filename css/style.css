@@ -2638,7 +2638,7 @@ iframe + h2 {
 
 .portfolio_gallery .portfolio_item .portfolio_img img {
   width: 80%;
-  height:13.5rem;
+  height:15rem;
 }
 
 .portfolio_gallery .portfolio_item .portfolio_img:hover:before {
@@ -2723,7 +2723,7 @@ iframe + h2 {
   transform: translate(-50%, -50%); /* centers window according to viewport */
   display:none;
   background-color:rgb(0, 0, 0);
-  width: 35rem;
+  max-width: 100vw;
 }
 
 #close-btn {
@@ -2754,10 +2754,12 @@ iframe + h2 {
 .modal-image-area {
   width: 100%;
   height: auto;
+  max-height:32rem;
 }
 
 .modal-image-area img {
   width: 100%;
+  max-height:32rem;
 }
 
 

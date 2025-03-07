@@ -550,6 +550,10 @@
         width: 17rem;
       }
 
+    .modal-window {
+        width: 100vw;
+    }
+
     .header_contact_info a {
         padding-right: 0px;
         padding-left: 0;
