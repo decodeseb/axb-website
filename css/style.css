@@ -322,6 +322,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 /*============ header_area css=============*/
+.slider_item .overlay_bg + .container {
+  padding-top:25rem;
+}
+
 .header_dark {
   background: #000000;
 }
@@ -976,12 +980,25 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
+.slider_text_three h3 {
+  font-size: 1.3rem;
+  font-weight:700;
+  font-family: "Barlow Condensed", sans-serif;
+  color:white;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom:0;
+}
 
-.slider_text_three h1 {
-  font-size: 4rem;
-  line-height: 60px;
+.container .slider_text_three h1 {
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-size:1.3rem;
   font-weight: 700;
-  margin-bottom: 55px;
+  /* margin-bottom: 55px; */
+  margin-bottom:0;
+  margin-top:15px;
   color: white;
 }
 
@@ -990,7 +1007,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .slider_text_two h1 {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .slider_text_two p {
@@ -1103,9 +1120,14 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*====================================================*/
 /*====================================================*/
 /*=========== con_about_area ============*/
+.col-lg-7 img {
+  
+} 
+
+
 .con_about_area {
   padding-bottom: 7.5rem;
-  padding-top: 7.5rem;
+  padding-top: 4rem;
   position: relative;
   z-index: 1;
 }
@@ -3681,7 +3703,7 @@ input[type="text"] {
   height: 100%;
 }
 
-iframe {
+.map_info > iframe {
   width:100%;
   height: 100%; 
   border:none;

@@ -297,8 +297,9 @@
         margin-top: 20px;
     }
     .slider_text_three h1 {
-        font-size: 50px;
+        font-size: 1.5rem;
         line-height: 55px;
+        text-transform: uppercase;
     }
     .con_service_item_three{
         padding-left: 25px;
